@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [swaglabs]">
+  <parameter name="driver-path" value="C:\\Users\\Harini Shreedhar\\Downloads\\chromedriver\\chromedriver.exe"/>
+  <test name="ProblemUserTest(failed)" preserve-order="true">
+    <classes>
+      <class name="swaglabs.ProblemUser">
+        <methods>
+          <include name="validateUser"/>
+        </methods>
+      </class>
+      <class name="swaglabs.LockedOutUser">
+        <methods>
+          <include name="tearDown"/>
+          <include name="openPage"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="StandardUserTest(failed)" preserve-order="true">
+    <classes>
+      <class name="swaglabs.StandardUser">
+        <methods>
+          <include name="validateUser"/>
+        </methods>
+      </class>
+      <class name="swaglabs.LockedOutUser">
+        <methods>
+          <include name="tearDown"/>
+          <include name="openPage"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

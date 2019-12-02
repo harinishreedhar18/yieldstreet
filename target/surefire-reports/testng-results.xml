@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="swaglabs" duration-ms="38968" started-at="2019-12-01T17:20:36Z" finished-at="2019-12-01T17:21:15Z">
+    <groups>
+    </groups>
+    <test name="ProblemUserTest" duration-ms="11024" started-at="2019-12-01T17:21:04Z" finished-at="2019-12-01T17:21:15Z">
+      <class name="swaglabs.ProblemUser">
+        <test-method status="PASS" signature="openPage(java.lang.String)[pri:0, instance:swaglabs.ProblemUser@79b4d0f]" name="openPage" is-config="true" duration-ms="7114" started-at="2019-12-01T17:21:04Z" finished-at="2019-12-01T17:21:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\\Users\\Harini Shreedhar\\Downloads\\chromedriver\\chromedriver.exe]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="validateUser()[pri:0, instance:swaglabs.ProblemUser@79b4d0f]" name="validateUser" duration-ms="3000" started-at="2019-12-01T17:21:11Z" finished-at="2019-12-01T17:21:14Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:swaglabs.ProblemUser@79b4d0f]" name="tearDown" is-config="true" duration-ms="909" started-at="2019-12-01T17:21:14Z" finished-at="2019-12-01T17:21:15Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="StandardUserTest" duration-ms="10913" started-at="2019-12-01T17:20:53Z" finished-at="2019-12-01T17:21:04Z">
+      <class name="swaglabs.StandardUser">
+        <test-method status="PASS" signature="openPage(java.lang.String)[pri:0, instance:swaglabs.StandardUser@4411d970]" name="openPage" is-config="true" duration-ms="5311" started-at="2019-12-01T17:20:53Z" finished-at="2019-12-01T17:20:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\\Users\\Harini Shreedhar\\Downloads\\chromedriver\\chromedriver.exe]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="validateUser()[pri:0, instance:swaglabs.StandardUser@4411d970]" name="validateUser" duration-ms="4649" started-at="2019-12-01T17:20:58Z" finished-at="2019-12-01T17:21:03Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:swaglabs.StandardUser@4411d970]" name="tearDown" is-config="true" duration-ms="950" started-at="2019-12-01T17:21:03Z" finished-at="2019-12-01T17:21:04Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="LockedOutUserTest" duration-ms="16854" started-at="2019-12-01T17:20:36Z" finished-at="2019-12-01T17:20:53Z">
+      <class name="swaglabs.LockedOutUser">
+        <test-method status="PASS" signature="openPage(java.lang.String)[pri:0, instance:swaglabs.LockedOutUser@30c7da1e]" name="openPage" is-config="true" duration-ms="14803" started-at="2019-12-01T17:20:36Z" finished-at="2019-12-01T17:20:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\\Users\\Harini Shreedhar\\Downloads\\chromedriver\\chromedriver.exe]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="validateUser()[pri:0, instance:swaglabs.LockedOutUser@30c7da1e]" name="validateUser" duration-ms="1122" started-at="2019-12-01T17:20:51Z" finished-at="2019-12-01T17:20:52Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:swaglabs.LockedOutUser@30c7da1e]" name="tearDown" is-config="true" duration-ms="894" started-at="2019-12-01T17:20:52Z" finished-at="2019-12-01T17:20:53Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

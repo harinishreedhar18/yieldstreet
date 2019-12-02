@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="swaglabs">
+	<test name="LockedOutUserTest">
+		<parameter name="driver-path" value="C:\\Users\\Harini Shreedhar\\Downloads\\chromedriver\\chromedriver.exe"/>
+		<classes>
+			<class name="swaglabs.LockedOutUser" />
+		</classes>
+	</test>
+	<test name="StandardUserTest">
+		<parameter name="driver-path" value="C:\\Users\\Harini Shreedhar\\Downloads\\chromedriver\\chromedriver.exe"/>
+		<classes>
+			<class name="swaglabs.StandardUser" />
+		</classes>
+	</test>
+	<test name="ProblemUserTest">
+		<parameter name="driver-path" value="C:\\Users\\Harini Shreedhar\\Downloads\\chromedriver\\chromedriver.exe"/>
+		<classes>
+			<class name="swaglabs.ProblemUser" />
+		</classes>
+	</test>
+</suite>

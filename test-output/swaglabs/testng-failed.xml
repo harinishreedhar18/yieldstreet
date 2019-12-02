@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [swaglabs]">
+  <test thread-count="5" name="LockedOutUserTest(failed)">
+    <parameter name="driver-path" value="C:\\Users\\Harini Shreedhar\\Downloads\\chromedriver\\chromedriver.exe"/>
+    <classes>
+      <class name="swaglabs.LockedOutUser">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validateUser"/>
+          <include name="openPage"/>
+        </methods>
+      </class> <!-- swaglabs.LockedOutUser -->
+    </classes>
+  </test> <!-- LockedOutUserTest(failed) -->
+  <test thread-count="5" name="StandardUserTest(failed)">
+    <parameter name="driver-path" value="C:\\Users\\Harini Shreedhar\\Downloads\\chromedriver\\chromedriver.exe"/>
+    <classes>
+      <class name="swaglabs.StandardUser">
+        <methods>
+          <include name="openPage"/>
+          <include name="tearDown"/>
+          <include name="validateUser"/>
+        </methods>
+      </class> <!-- swaglabs.StandardUser -->
+    </classes>
+  </test> <!-- StandardUserTest(failed) -->
+  <test thread-count="5" name="ProblemUserTest(failed)">
+    <parameter name="driver-path" value="C:\\Users\\Harini Shreedhar\\Downloads\\chromedriver\\chromedriver.exe"/>
+    <classes>
+      <class name="swaglabs.ProblemUser">
+        <methods>
+          <include name="openPage"/>
+          <include name="validateUser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- swaglabs.ProblemUser -->
+    </classes>
+  </test> <!-- ProblemUserTest(failed) -->
+</suite> <!-- Failed suite [swaglabs] -->

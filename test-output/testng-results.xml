@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" ignored="0" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="swaglabs" duration-ms="2450" started-at="2019-12-01T22:13:58 EST" finished-at="2019-12-01T22:14:00 EST">
+    <groups>
+    </groups>
+    <test name="LockedOutUserTest" duration-ms="1390" started-at="2019-12-01T22:13:58 EST" finished-at="2019-12-01T22:13:59 EST">
+      <class name="swaglabs.LockedOutUser">
+        <test-method status="FAIL" signature="openPage(java.lang.String)[pri:0, instance:swaglabs.LockedOutUser@737996a0]" name="openPage" is-config="true" duration-ms="1281" started-at="2019-12-01T22:13:58 EST" finished-at="2019-12-01T22:13:59 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\\Users\\Harini Shreedhar\\Downloads\\chromedriver\\chromedriver.exe]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/commons/logging/LogFactory]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+at org.apache.http.conn.ssl.AbstractVerifier.<init>(AbstractVerifier.java:60)
+at org.apache.http.conn.ssl.AllowAllHostnameVerifier.<init>(AllowAllHostnameVerifier.java:43)
+at org.apache.http.conn.ssl.AllowAllHostnameVerifier.<clinit>(AllowAllHostnameVerifier.java:45)
+at org.apache.http.conn.ssl.SSLConnectionSocketFactory.<clinit>(SSLConnectionSocketFactory.java:144)
+at org.openqa.selenium.remote.internal.HttpClientFactory.getClientConnectionManager(HttpClientFactory.java:71)
+at org.openqa.selenium.remote.internal.HttpClientFactory.<init>(HttpClientFactory.java:57)
+at org.openqa.selenium.remote.internal.HttpClientFactory.<init>(HttpClientFactory.java:60)
+at org.openqa.selenium.remote.internal.ApacheHttpClient$Factory.getDefaultHttpClientFactory(ApacheHttpClient.java:250)
+at org.openqa.selenium.remote.internal.ApacheHttpClient$Factory.<init>(ApacheHttpClient.java:227)
+at org.openqa.selenium.remote.HttpCommandExecutor.getDefaultClientFactory(HttpCommandExecutor.java:92)
+at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:71)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:62)
+at org.openqa.selenium.chrome.ChromeDriverCommandExecutor.<init>(ChromeDriverCommandExecutor.java:40)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:174)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:120)
+at swaglabs.LoginUser.openPage(LoginUser.java:30)
+at swaglabs.LockedOutUser.openPage(LockedOutUser.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.TestNG.privateMain(TestNG.java:1326)
+at org.testng.TestNG.main(TestNG.java:1294)
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.logging.LogFactory
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 43 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="SKIP" signature="validateUser()[pri:0, instance:swaglabs.LockedOutUser@737996a0]" name="validateUser" duration-ms="0" started-at="2019-12-01T22:13:59 EST" finished-at="2019-12-01T22:13:59 EST">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/commons/logging/LogFactory]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+at org.apache.http.conn.ssl.AbstractVerifier.<init>(AbstractVerifier.java:60)
+at org.apache.http.conn.ssl.AllowAllHostnameVerifier.<init>(AllowAllHostnameVerifier.java:43)
+at org.apache.http.conn.ssl.AllowAllHostnameVerifier.<clinit>(AllowAllHostnameVerifier.java:45)
+at org.apache.http.conn.ssl.SSLConnectionSocketFactory.<clinit>(SSLConnectionSocketFactory.java:144)
+at org.openqa.selenium.remote.internal.HttpClientFactory.getClientConnectionManager(HttpClientFactory.java:71)
+at org.openqa.selenium.remote.internal.HttpClientFactory.<init>(HttpClientFactory.java:57)
+at org.openqa.selenium.remote.internal.HttpClientFactory.<init>(HttpClientFactory.java:60)
+at org.openqa.selenium.remote.internal.ApacheHttpClient$Factory.getDefaultHttpClientFactory(ApacheHttpClient.java:250)
+at org.openqa.selenium.remote.internal.ApacheHttpClient$Factory.<init>(ApacheHttpClient.java:227)
+at org.openqa.selenium.remote.HttpCommandExecutor.getDefaultClientFactory(HttpCommandExecutor.java:92)
+at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:71)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:62)
+at org.openqa.selenium.chrome.ChromeDriverCommandExecutor.<init>(ChromeDriverCommandExecutor.java:40)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:174)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:120)
+at swaglabs.LoginUser.openPage(LoginUser.java:30)
+at swaglabs.LockedOutUser.openPage(LockedOutUser.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.TestNG.privateMain(TestNG.java:1326)
+at org.testng.TestNG.main(TestNG.java:1294)
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.logging.LogFactory
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 43 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUser -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:swaglabs.LockedOutUser@737996a0]" name="tearDown" is-config="true" duration-ms="-1575256439745" started-at="2019-12-01T22:13:59 EST" finished-at="1969-12-31T19:00:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- swaglabs.LockedOutUser -->
+    </test> <!-- LockedOutUserTest -->
+    <test name="StandardUserTest" duration-ms="27" started-at="2019-12-01T22:14:00 EST" finished-at="2019-12-01T22:14:00 EST">
+      <class name="swaglabs.StandardUser">
+        <test-method status="FAIL" signature="openPage(java.lang.String)[pri:0, instance:swaglabs.StandardUser@6a2bcfcb]" name="openPage" is-config="true" duration-ms="23" started-at="2019-12-01T22:14:00 EST" finished-at="2019-12-01T22:14:00 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\\Users\\Harini Shreedhar\\Downloads\\chromedriver\\chromedriver.exe]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[Could not initialize class org.apache.http.conn.ssl.SSLConnectionSocketFactory]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: Could not initialize class org.apache.http.conn.ssl.SSLConnectionSocketFactory
+at org.openqa.selenium.remote.internal.HttpClientFactory.getClientConnectionManager(HttpClientFactory.java:71)
+at org.openqa.selenium.remote.internal.HttpClientFactory.<init>(HttpClientFactory.java:57)
+at org.openqa.selenium.remote.internal.HttpClientFactory.<init>(HttpClientFactory.java:60)
+at org.openqa.selenium.remote.internal.ApacheHttpClient$Factory.getDefaultHttpClientFactory(ApacheHttpClient.java:250)
+at org.openqa.selenium.remote.internal.ApacheHttpClient$Factory.<init>(ApacheHttpClient.java:227)
+at org.openqa.selenium.remote.HttpCommandExecutor.getDefaultClientFactory(HttpCommandExecutor.java:92)
+at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:71)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:62)
+at org.openqa.selenium.chrome.ChromeDriverCommandExecutor.<init>(ChromeDriverCommandExecutor.java:40)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:174)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:120)
+at swaglabs.LoginUser.openPage(LoginUser.java:30)
+at swaglabs.StandardUser.openPage(StandardUser.java:19)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.TestNG.privateMain(TestNG.java:1326)
+at org.testng.TestNG.main(TestNG.java:1294)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="SKIP" signature="validateUser()[pri:0, instance:swaglabs.StandardUser@6a2bcfcb]" name="validateUser" duration-ms="0" started-at="2019-12-01T22:14:00 EST" finished-at="2019-12-01T22:14:00 EST">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[Could not initialize class org.apache.http.conn.ssl.SSLConnectionSocketFactory]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: Could not initialize class org.apache.http.conn.ssl.SSLConnectionSocketFactory
+at org.openqa.selenium.remote.internal.HttpClientFactory.getClientConnectionManager(HttpClientFactory.java:71)
+at org.openqa.selenium.remote.internal.HttpClientFactory.<init>(HttpClientFactory.java:57)
+at org.openqa.selenium.remote.internal.HttpClientFactory.<init>(HttpClientFactory.java:60)
+at org.openqa.selenium.remote.internal.ApacheHttpClient$Factory.getDefaultHttpClientFactory(ApacheHttpClient.java:250)
+at org.openqa.selenium.remote.internal.ApacheHttpClient$Factory.<init>(ApacheHttpClient.java:227)
+at org.openqa.selenium.remote.HttpCommandExecutor.getDefaultClientFactory(HttpCommandExecutor.java:92)
+at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:71)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:62)
+at org.openqa.selenium.chrome.ChromeDriverCommandExecutor.<init>(ChromeDriverCommandExecutor.java:40)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:174)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:120)
+at swaglabs.LoginUser.openPage(LoginUser.java:30)
+at swaglabs.StandardUser.openPage(StandardUser.java:19)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.TestNG.privateMain(TestNG.java:1326)
+at org.testng.TestNG.main(TestNG.java:1294)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUser -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:swaglabs.StandardUser@6a2bcfcb]" name="tearDown" is-config="true" duration-ms="-1575256440529" started-at="2019-12-01T22:14:00 EST" finished-at="1969-12-31T19:00:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- swaglabs.StandardUser -->
+    </test> <!-- StandardUserTest -->
+    <test name="ProblemUserTest" duration-ms="21" started-at="2019-12-01T22:14:00 EST" finished-at="2019-12-01T22:14:00 EST">
+      <class name="swaglabs.ProblemUser">
+        <test-method status="FAIL" signature="openPage(java.lang.String)[pri:0, instance:swaglabs.ProblemUser@51efea79]" name="openPage" is-config="true" duration-ms="18" started-at="2019-12-01T22:14:00 EST" finished-at="2019-12-01T22:14:00 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\\Users\\Harini Shreedhar\\Downloads\\chromedriver\\chromedriver.exe]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[Could not initialize class org.apache.http.conn.ssl.SSLConnectionSocketFactory]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: Could not initialize class org.apache.http.conn.ssl.SSLConnectionSocketFactory
+at org.openqa.selenium.remote.internal.HttpClientFactory.getClientConnectionManager(HttpClientFactory.java:71)
+at org.openqa.selenium.remote.internal.HttpClientFactory.<init>(HttpClientFactory.java:57)
+at org.openqa.selenium.remote.internal.HttpClientFactory.<init>(HttpClientFactory.java:60)
+at org.openqa.selenium.remote.internal.ApacheHttpClient$Factory.getDefaultHttpClientFactory(ApacheHttpClient.java:250)
+at org.openqa.selenium.remote.internal.ApacheHttpClient$Factory.<init>(ApacheHttpClient.java:227)
+at org.openqa.selenium.remote.HttpCommandExecutor.getDefaultClientFactory(HttpCommandExecutor.java:92)
+at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:71)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:62)
+at org.openqa.selenium.chrome.ChromeDriverCommandExecutor.<init>(ChromeDriverCommandExecutor.java:40)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:174)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:120)
+at swaglabs.LoginUser.openPage(LoginUser.java:30)
+at swaglabs.ProblemUser.openPage(ProblemUser.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.TestNG.privateMain(TestNG.java:1326)
+at org.testng.TestNG.main(TestNG.java:1294)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="SKIP" signature="validateUser()[pri:0, instance:swaglabs.ProblemUser@51efea79]" name="validateUser" duration-ms="0" started-at="2019-12-01T22:14:00 EST" finished-at="2019-12-01T22:14:00 EST">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[Could not initialize class org.apache.http.conn.ssl.SSLConnectionSocketFactory]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: Could not initialize class org.apache.http.conn.ssl.SSLConnectionSocketFactory
+at org.openqa.selenium.remote.internal.HttpClientFactory.getClientConnectionManager(HttpClientFactory.java:71)
+at org.openqa.selenium.remote.internal.HttpClientFactory.<init>(HttpClientFactory.java:57)
+at org.openqa.selenium.remote.internal.HttpClientFactory.<init>(HttpClientFactory.java:60)
+at org.openqa.selenium.remote.internal.ApacheHttpClient$Factory.getDefaultHttpClientFactory(ApacheHttpClient.java:250)
+at org.openqa.selenium.remote.internal.ApacheHttpClient$Factory.<init>(ApacheHttpClient.java:227)
+at org.openqa.selenium.remote.HttpCommandExecutor.getDefaultClientFactory(HttpCommandExecutor.java:92)
+at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:71)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:62)
+at org.openqa.selenium.chrome.ChromeDriverCommandExecutor.<init>(ChromeDriverCommandExecutor.java:40)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:174)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:120)
+at swaglabs.LoginUser.openPage(LoginUser.java:30)
+at swaglabs.ProblemUser.openPage(ProblemUser.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.TestNG.privateMain(TestNG.java:1326)
+at org.testng.TestNG.main(TestNG.java:1294)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUser -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:swaglabs.ProblemUser@51efea79]" name="tearDown" is-config="true" duration-ms="-1575256440809" started-at="2019-12-01T22:14:00 EST" finished-at="1969-12-31T19:00:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- swaglabs.ProblemUser -->
+    </test> <!-- ProblemUserTest -->
+  </suite> <!-- swaglabs -->
+</testng-results>
